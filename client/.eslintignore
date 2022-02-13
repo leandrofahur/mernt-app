@@ -1,0 +1,8 @@
+public
+node_modules
+dist
+build
+.vscode
+rollup.*
+babel.*
+src/index.d.ts
