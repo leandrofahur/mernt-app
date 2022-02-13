@@ -1,4 +1,4 @@
-<h1 align="center"><strong>MERN TODO List App</strong></h1>
+<h1 align="center"><strong>MERN DevHub App</strong></h1>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/leandro-miranda-fahur-machado/">
@@ -17,7 +17,7 @@
 <br/>
 
 <h2>🎯 <strong>Objective</strong></h2>
-<p>This repository intends to host the implementation of a TODO List app. The application will be implemented using the MERN stack with the aid of Typescript and  Storybook. On top of that, a simple design will be developed in figma and can be accessed from <a href="https://www.figma.com/file/z68cTeDoGReAdWy1a1moEb/TODO-List-App?node-id=0%3A1" target="_blank">here</a></p>
+<p>This repository intends to host the implementation of a DevHub app. The application will be implemented using the MERN stack with the aid of Typescript and  Storybook. On top of that, a simple design will be developed in figma and can be accessed from <a href="https://www.figma.com/file/z68cTeDoGReAdWy1a1moEb/TODO-List-App?node-id=0%3A1" target="_blank">here</a></p>
 <br/>
 
 <h2>📝 <strong>References</strong></h2>
