@@ -1,15 +1,20 @@
-import express, { Application } from 'express';
+import express, { Application, Request, Response, NextFunction } from 'express';
+import cors from 'cors';
+
 import { routes } from './routes';
 import { connectDB } from './database';
+
 import 'dotenv/config';
-import { checkError } from './middlewares/checkError';
+import { checkServer } from '@middlewares/checkServer';
 
 const app: Application = express();
 
 connectDB();
 
+app.use(cors());
 app.use(express.json());
 app.use(routes);
-app.use(checkError);
+
+app.use(checkServer);
 
 export { app };
