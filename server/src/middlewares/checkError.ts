@@ -1,13 +1,11 @@
-import { NextFunction, Request, Response } from 'express';
+import { Response } from 'express';
 
 type checkErrorProps = {
     error: Error;
-    req: Request;
     res: Response;
-    next: NextFunction;
 };
 
-function checkError({ error, req, res, next }: checkErrorProps) {
+function checkError({ error, res }: checkErrorProps) {
     if (error instanceof Error) {
         return res.status(400).json({
             error: error.message,
